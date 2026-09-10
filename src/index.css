@@ -1,0 +1,150 @@
+* {
+  font-family: 'Courier New', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;  
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Creates a dark space-blue to black background */
+  background-color: hsl(240, 60%, 2%);
+  
+  /* Creates procedurally generated "stars" using radial gradients */
+  background-image: 
+    radial-gradient(1px 1px at 20px 30px, hsl(0, 0%, 100%), rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 40px 70px, hsl(0, 0%, 100%), rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 50px 160px, hsl(0, 0%, 87%), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 90px 40px, hsl(0, 0%, 100%), rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 130px 80px, hsl(0, 0%, 100%), rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 160px 120px, hsl(0, 0%, 67%), rgba(0, 0, 0, 0));
+  
+  /* Repeats the star patterns seamlessly across the entire screen */
+  background-size: 200px 200px; 
+  color: hsl(0, 0%, 96%);
+}
+
+.navigation-links {
+  display: flex;
+  list-style: none;
+  padding: 25px;
+  gap: 25px;
+  border-top: hsl(0, 0%, 100%);
+  border-top-style: solid;
+  border-bottom: hsl(0, 0%, 100%);
+  border-bottom-style: solid;
+}
+
+.navigation-links li {
+  margin: auto;
+  padding: 10px 25px;
+  max-width: 100px;
+  border-style: solid;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 6px;
+  background-color: hsl(61, 100%, 47%);
+  flex: 1 1 0;
+  text-align: center;
+
+}
+
+.navigation-links a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.home-body {
+  margin: 5%;
+}
+
+.profile-img {
+  border-radius: 8px;
+  border: 1px solid hsl(0, 0%, 100%);
+  width: 400px;
+  display: flex;
+  margin: auto;
+}
+
+.intro-body {
+  margin: 5%;
+}
+
+.card {
+  border-style: solid;
+  border-radius: 8px;
+  margin: 5%;
+  padding: 1% 1%;
+  
+}
+
+.project-cards {
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-cards a {
+  text-decoration: none;
+}
+
+.project-cards a:visited {
+  color:hsl(0, 0%, 100%);
+}
+
+.projects-header {
+  margin: 5%;
+}
+
+.social-med {
+  display: flex;
+  margin: 5%;
+}
+
+.social-med-links {
+  margin: auto;
+}
+
+.social-med-links a {
+  padding: 0 30px;
+}
+
+.social-med a:visited {
+  color: hsl(0, 0%, 100%)
+}
+
+.contact-body {
+  margin: auto 5%;
+}
+
+.contact-form form{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input{
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.contact-form textarea{
+  border-radius: 6px;
+  padding: 5px;
+  height: 200px;
+}
+
+.contact-form button{
+  max-width: 150px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.contact-form button:hover {
+  cursor: pointer;
+  background-color: hsl(208, 100%, 90%);
+}
