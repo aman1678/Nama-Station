@@ -4,6 +4,7 @@ import About from './About.jsx'
 import Home from './Home.jsx'
 import Project from './Projects.jsx'
 import Contact from './Contact.jsx'
+import Resume from './Resume.jsx'
 
 function App() {
   return(
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <About/>
       <Project/>
+      <Resume/>
       <Contact/>
       <Footer/>
     </>

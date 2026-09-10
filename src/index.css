@@ -1,14 +1,19 @@
 * {
   font-family: 'Courier New', Tahoma, Geneva, Verdana, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .header {
   text-align: center;  
 }
 
 body {
+  /* Wanted to have a space themed background so here is how I did it */
   margin: 0;
   min-height: 100vh;
+
   /* Creates a dark space-blue to black background */
   background-color: hsl(240, 60%, 2%);
   
@@ -58,7 +63,7 @@ body {
 }
 
 .home-body {
-  margin: 5%;
+  margin: 5% 25%;
 }
 
 .profile-img {
@@ -70,7 +75,7 @@ body {
 }
 
 .intro-body {
-  margin: 5%;
+  margin: 5% 25%;
 }
 
 .card {
@@ -82,7 +87,7 @@ body {
 }
 
 .project-cards {
-  margin: 5%;
+  margin: 5% 25%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -96,12 +101,12 @@ body {
 }
 
 .projects-header {
-  margin: 5%;
+  margin: 5% 25%;
 }
 
 .social-med {
   display: flex;
-  margin: 5%;
+  margin: 5% 25%;
 }
 
 .social-med-links {
@@ -115,9 +120,21 @@ body {
 .social-med a:visited {
   color: hsl(0, 0%, 100%)
 }
+.resume-pdf {
+  margin: 5% 25%;
+}
+.resume-pdf iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
 .contact-body {
-  margin: auto 5%;
+  margin: 5% 25%;
 }
 
 .contact-form form{

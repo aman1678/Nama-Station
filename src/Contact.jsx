@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 function Form() {
+    
     const formRef = useRef();
     const [isSending, setIsSending] = useState(false);
     const [statusMessage, setStatusMessage] = useState("");
@@ -38,10 +39,10 @@ function Form() {
         <div className="contact-form">
             <form ref={formRef} onSubmit={sendEmail}>
                 <label>Name</label>
-                <input type="text" name="from_name" required/>
+                <input type="text" name="name" required/>
 
                 <label>Email</label>
-                <input type="email" name="from_email" required/>
+                <input type="email" name="email" required/>
 
                 <label>Message</label>
                 <textarea name="message" rows="5" required/>
@@ -57,7 +58,6 @@ function Form() {
 }
 
 function Contact() {
-
 
     return(
         <section id="contact">
