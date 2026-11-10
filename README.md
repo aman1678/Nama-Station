@@ -1,6 +1,6 @@
 # Nama Station
 
-Hello traveler! My name is Aman and here is where you may find the developer details of my intergallactic station. Check out my official page at (insert link).
+Hello traveler! My name is Aman and here is where you may find the developer details of my intergallactic station. Check out my official page by [clicking here](https://nama-station.vercel.app/).
 
 ## Some Context
 
@@ -15,7 +15,7 @@ Since my background is in physics, I really find "universe-y" related things int
 
 **Tech Stack?**
 
-Since this is a simple frotend application, I mainly used **React.js, Node.js, and Vite** to build this project. 
+Since this is a simple frotend application, I mainly used **React.js, Node.js, and Vite** to build this project. Deployed with **Vercel**.
 
 ## File Structure
 

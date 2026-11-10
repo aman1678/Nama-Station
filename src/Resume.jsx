@@ -1,4 +1,4 @@
-import resume from './assets/AmanAhmedResume (6).pdf'
+import resume from './assets/AmanAhmedResumeMSWE (6).pdf'
 function Resume() {
     return(
         <section id="resume">

@@ -1,4 +1,3 @@
-
 function Header() {
 
     return(
@@ -10,7 +9,6 @@ function Header() {
                     <li className="projects-nav"><a href="#projects">Projects</a></li>
                     <li className="resume-nav"><a href="#resume">Resume</a></li>
                     <li className="contact-nav"><a href="#contact">Contact</a></li>
-
                 </ul>
             </nav>
         </header>
