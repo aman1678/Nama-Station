@@ -3,6 +3,7 @@ import gravSimPic from './assets/gravSim.png'
 import driewPic from './assets/driew.png'
 import cowbowApocPic from './assets/cowbowApoc.png'
 import namaStation from './assets/namaStation.png'
+import { FaGithub } from 'react-icons/fa'
 
 function Project() {
     return(
@@ -12,32 +13,33 @@ function Project() {
                 <a href="https://github.com/ibrahimahmd/Newtonian-Two-Body-Problem-Simulation" target="_blank">
                     <Card 
                         title="Gravitational Simulation Engine" 
-                        description="Desc 1" 
+                        description="Stack: Python, NumPy, Pygame" 
                         image={gravSimPic}
                     />
                 </a>
                 <a href="https://github.com/aman1678/Driew" target="_blank">
                     <Card 
-                        title="Driew" 
-                        description="Desc 2"
+                        title="Driew: A Pakistani drama review platform" 
+                        description="Stack: Python, Flask, TypeScript, React, Node.js, Vercel, SQLite"
                         image={driewPic}
                     />
                 </a>
                 <a href="https://github.com/aman1678/Cowboy-Apocalypse" target="_blank">
                     <Card 
                         title="Cowboy Apocalypse" 
-                        description="Desc 3"
+                        description="Stack: Python, Pygame"
                         image={cowbowApocPic}
                     />
                 </a>
                 <a href="https://github.com/aman1678/Nama-Station" target="_blank">
                     <Card 
                         title="This Page: Nama Station!" 
-                        description="Desc 4"
+                        description="Stack: React, JavaScript, Vercel"
                         image={namaStation}
                     />
                 </a>
             </div>
+            <h3 className="projects-header">Check out more on my <a href="https://github.com/aman1678">github</a> <FaGithub/></h3>
         </section>
     );
 }
